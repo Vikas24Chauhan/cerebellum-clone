@@ -1,0 +1,84 @@
+.BTR-container {
+  width: 100%;
+  margin: 1rem auto;
+  padding: 4rem 13% 0 13%;
+  display: flex;
+  background-color: #1f305e;
+  color: white;
+}
+
+.BTR-image {
+  width: 49%;
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.BTR-shape-bg {
+  background-image: url("../../assets/images/homeImages/inte_shape.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  position: relative;
+  width: 100%;
+  max-width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BTR-main-img {
+  width: 100%;
+  z-index: 1;
+}
+
+.BTR-info {
+  width: 49%;
+}
+
+.BTR-info img {
+  width: 50px;
+}
+
+.BTR-info h3 {
+  font-size: 28px;
+  padding: 1rem 0;
+  line-height: 2.75rem;
+}
+
+.BTR-info p {
+  font-size: 15px;
+  padding-bottom: 10px;
+  line-height: 1.5rem;
+}
+
+/* .BTR-container span{
+
+} */
+
+@media (max-width: 1024px) {
+  .BTR-container {
+    padding: 2.5rem 2.5% 0 2.5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .BTR-container {
+    flex-direction: column;
+  }
+
+  .BTR-image {
+    width: 100%;
+  }
+
+  .BTR-info {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .BTR-info img {
+    margin-top: 1rem;
+  }
+}

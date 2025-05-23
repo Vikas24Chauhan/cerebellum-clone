@@ -1,0 +1,78 @@
+.sessions-container {
+  width: 75%;
+  margin: 1rem auto;
+  display: flex;
+}
+
+.sessions-image {
+  width: 49%;
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sessions-shape-bg {
+  background-image: url("../../assets/images/homeImages/inte_shape.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  position: relative;
+  width: 100%;
+  max-width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.session-main-img {
+  width: 100%;
+  z-index: 1;
+}
+
+.sessions-info {
+  width: 49%;
+}
+
+.sessions-info img {
+  width: 50px;
+}
+
+.sessions-info h3 {
+  font-size: 28px;
+  padding: 1rem 0;
+  line-height: 2.75rem;
+}
+
+.sessions-info p {
+  font-size: 14px;
+  color: gray;
+  padding-bottom: 10px;
+  line-height: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .sessions-container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  .sessions-container {
+    flex-direction: column;
+  }
+
+  .sessions-image {
+    width: 100%;
+  }
+
+  .sessions-info {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .sessions-info img {
+    margin-top: 1rem;
+  }
+}

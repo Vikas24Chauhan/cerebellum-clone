@@ -1,0 +1,98 @@
+.login-container {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eefaff;
+}
+
+.login-form {
+  width: 40%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+.login-form p {
+  font-size: 18px;
+  padding: 1rem 0;
+  opacity: 0.6;
+}
+
+.login-input-group {
+  margin: 1rem 0;
+  display: flex;
+  gap: 10px;
+}
+
+.country-code {
+  width: 20%;
+  padding: 10px;
+  border: 2px solid rgb(201, 201, 201);
+  border-radius: 8px;
+}
+
+.mobile-input {
+  width: 78%;
+  padding: 0 1rem;
+  border: 2px solid rgb(201, 201, 201);
+  border-radius: 8px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #1f6acd;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.login-form h6 {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1rem;
+}
+
+.whatsapp-logo {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  color: green;
+}
+
+@media (max-width: 1440px) {
+  .login-form {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .login-form {
+    width: 65%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .login-form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-form {
+    width: 95%;
+  }
+
+  .login-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .login-form p {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,102 @@
+.getStart-container {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.getStart-container h4 {
+  margin-top: 4rem;
+}
+
+.getStart-container h1 {
+  font-size: 3.25rem;
+  padding: 1rem 0;
+}
+
+.getStart-container p {
+  font-size: 18px;
+}
+
+.getStart-container h3 {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.getStart-store {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.getStart-links {
+  width: 500px;
+  margin: 1rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.getStart-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.getStart-iPhone-image {
+  width: 650px;
+  margin: auto;
+}
+
+.getStart-iPhone-image img {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .getStart-container h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .getStart-container {
+    width: 85%;
+  }
+
+  .getStart-container h1 {
+    font-size: 2rem;
+  }
+
+  .getStart-container p {
+    font-size: 1rem;
+  }
+
+  .getStart-links a {
+    font-size: 12px;
+  }
+
+  .getStart-iPhone-image {
+    width: 65%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .getStart-container {
+    width: 95%;
+  }
+
+  .getStart-links {
+    width: 100%;
+  }
+
+  .getStart-store {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .getStart-iPhone-image {
+    width: 100%;
+    margin: auto;
+  }
+}

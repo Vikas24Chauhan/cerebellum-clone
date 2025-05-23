@@ -1,0 +1,78 @@
+.lectures-container {
+  width: 75%;
+  margin: 1rem auto;
+  display: flex;
+}
+
+.lectures-image {
+  width: 49%;
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lectures-shape-bg {
+  background-image: url("../../assets/images/homeImages/inte_shape.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  position: relative;
+  width: 100%;
+  max-width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lectures-main-img {
+  width: 100%;
+  z-index: 1;
+}
+
+.lectures-info {
+  width: 49%;
+}
+
+.lectures-info img {
+  width: 50px;
+}
+
+.lectures-info h3 {
+  font-size: 28px;
+  padding: 1rem 0;
+  line-height: 2.75rem;
+}
+
+.lectures-info p {
+  font-size: 14px;
+  color: gray;
+  padding-bottom: 10px;
+  line-height: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .lectures-container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  .lectures-container {
+    flex-direction: column;
+  }
+
+  .lectures-image {
+    width: 100%;
+  }
+
+  .lectures-info {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .lectures-info img {
+    margin-top: 1rem;
+  }
+}

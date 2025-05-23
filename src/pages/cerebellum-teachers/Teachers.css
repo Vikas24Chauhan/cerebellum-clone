@@ -1,0 +1,83 @@
+.teachers-container {
+  width: 100%;
+}
+
+.teachers-heading {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to top, #f2f7ff, #74a9ff);
+}
+
+.teachers-heading h1 {
+  font-size: 2.5rem;
+  color: rgb(87, 87, 87);
+}
+
+.teachers-banner {
+  width: 100%;
+}
+
+.teachers-banner img {
+  width: 100%;
+}
+
+.teachers-info-cards {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.teachers-info-card {
+  width: calc(23% - 1rem);
+  box-shadow: 0 4px 8px rgba(173, 216, 230, 0.6);
+  border-radius: 15px;
+  padding: 1rem;
+}
+
+.teachers-info-card img {
+  width: 100%;
+}
+
+.teachers-info-card h3 {
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+.teachers-info-card h5 {
+  opacity: 0.6;
+  padding-bottom: 10px;
+}
+
+.teachers-info-card span {
+  color: blue;
+}
+
+@media (max-width: 1024px) {
+  .teachers-info-cards {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .teachers-info-card {
+    width: calc(48% - 1rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .teachers-heading h1 {
+    font-size: 2rem;
+  }
+
+  .teachers-info-cards {
+    width: 95%;
+  }
+
+  .teachers-info-card {
+    width: 100%;
+  }
+}

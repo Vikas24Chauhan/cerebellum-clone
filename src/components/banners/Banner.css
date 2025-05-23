@@ -1,0 +1,40 @@
+.banner-container {
+  position: relative;
+  width: 75%;
+  margin: 1rem auto;
+  max-height: 600px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.custom-arrow.prev {
+  left: 15px;
+}
+
+.custom-arrow.next {
+  right: 15px;
+}
+
+@media (max-width: 1024px) {
+  .banner-container {
+    width: 95%;
+  }
+}

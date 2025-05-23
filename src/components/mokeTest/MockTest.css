@@ -1,0 +1,80 @@
+.mock-test-container {
+  width: 100%;
+  margin: 1rem auto;
+  padding: 4rem 13% 0 13%;
+  display: flex;
+  background-color: #1f305e;
+  color: white;
+}
+
+.mock-test-image {
+  width: 49%;
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mock-test-shape-bg {
+  background-image: url("../../assets/images/homeImages/inte_shape.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  position: relative;
+  width: 100%;
+  max-width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mock-test-main-img {
+  width: 100%;
+  z-index: 1;
+}
+
+.mock-test-info {
+  width: 49%;
+}
+
+.mock-test-info img {
+  width: 50px;
+}
+
+.mock-test-info h3 {
+  font-size: 28px;
+  padding: 1rem 0;
+  line-height: 2.75rem;
+}
+
+.mock-test-info p {
+  font-size: 15px;
+  padding-bottom: 10px;
+  line-height: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .mock-test-container {
+    padding: 2.5rem 2.5% 0 2.5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .mock-test-container {
+    flex-direction: column;
+  }
+
+  .mock-test-image {
+    width: 100%;
+  }
+
+  .mock-test-info {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .mock-test-info img {
+    margin-top: 1rem;
+  }
+}

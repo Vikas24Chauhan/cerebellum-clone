@@ -1,0 +1,36 @@
+.fmge-container {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.fmge-container h1 {
+  text-align: center;
+  color: #1f305e;
+  margin-bottom: 1rem;
+}
+
+.fmge-card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.fmge-card img {
+  width: 18.5%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+@media (max-width: 1024px) {
+  .fmge-container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 900px) {
+  .fmge-container {
+    display: none;
+  }
+}

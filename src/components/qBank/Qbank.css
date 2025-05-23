@@ -1,0 +1,80 @@
+.Qbank-container {
+  width: 100%;
+  margin: 1rem auto;
+  padding: 4rem 13% 0 13%;
+  display: flex;
+  background-color: #1f305e;
+  color: white;
+}
+
+.Qbank-image {
+  width: 49%;
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Qbank-shape-bg {
+  background-image: url("../../assets/images/homeImages/inte_shape.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  position: relative;
+  width: 100%;
+  max-width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Qbank-main-img {
+  width: 100%;
+  z-index: 1;
+}
+
+.Qbank-info {
+  width: 49%;
+}
+
+.Qbank-info img {
+  width: 50px;
+}
+
+.Qbank-info h3 {
+  font-size: 28px;
+  padding: 1rem 0;
+  line-height: 2.75rem;
+}
+
+.Qbank-info p {
+  font-size: 15px;
+  padding-bottom: 10px;
+  line-height: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .Qbank-container {
+    padding: 2.5rem 2.5% 0 2.5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .Qbank-container {
+    flex-direction: column;
+  }
+
+  .Qbank-image {
+    width: 100%;
+  }
+
+  .Qbank-info {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .Qbank-info img {
+    margin-top: 1rem;
+  }
+}
