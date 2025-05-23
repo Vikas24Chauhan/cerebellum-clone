@@ -15,7 +15,7 @@ function Batch() {
           </div>
 
           <div className="batch-btn">
-            <NavLink>{data.enroll}</NavLink>
+            <NavLink to="/login">{data.enroll}</NavLink>
           </div>
         </div>
       ))}
@@ -24,7 +24,7 @@ function Batch() {
         <div className="batch-card2">
           <h3>BTR by Dr. Zainab Vora</h3>
           <h4>To Know Program Details</h4>
-          <NavLink>Click Here</NavLink>
+          <NavLink to="/login">Click Here</NavLink>
         </div>
 
         <h2>
@@ -32,7 +32,7 @@ function Batch() {
           Completion is Their Responsibility
         </h2>
 
-        <NavLink>Enrol Now</NavLink>
+        <NavLink to="/login">Enrol Now</NavLink>
       </div>
     </div>
   );

@@ -47,6 +47,12 @@
   justify-content: space-around;
   font-size: 20px;
   padding: 1rem 0;
+  cursor: pointer;
+}
+
+.footer-social-media a {
+  color: white;
+  cursor: pointer;
 }
 
 .footer-store {

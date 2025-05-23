@@ -10,11 +10,13 @@ import HelpCenter from "./pages/help-center/HelpCenter";
 import LogIn from "./pages/login/LogIn";
 import FAQ from "./pages/faq/FAQ";
 import Footer from "./components/footer/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
       <BrowserRouter>
+        <ScrollToTop />
         <TopNavbar />
         <Navbar />
         <Routes>

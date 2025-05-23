@@ -23,13 +23,22 @@ function TopNavbar() {
           <span>+91 9560200184</span>
         </div>
 
-        <NavLink to="https://www.facebook.com/cerebellumacademy">
+        <NavLink
+          to="https://www.facebook.com/cerebellumacademy"
+          target="_blank"
+        >
           <FaFacebook />
         </NavLink>
-        <NavLink to="https://www.instagram.com/cerebellumacademy/">
+        <NavLink
+          to="https://www.instagram.com/cerebellumacademy/"
+          target="_blank"
+        >
           <FaInstagram />
         </NavLink>
-        <NavLink to="https://www.youtube.com/@cerebellumacademy">
+        <NavLink
+          to="https://www.youtube.com/@cerebellumacademy"
+          target="_blank"
+        >
           <FaYoutube />
         </NavLink>
       </div>

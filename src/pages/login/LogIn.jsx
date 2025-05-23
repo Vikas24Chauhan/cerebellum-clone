@@ -26,7 +26,9 @@ function LogIn() {
           />
         </div>
 
-        <button className="login-btn">Continue</button>
+        <button type="submit" className="login-btn">
+          Continue
+        </button>
         <h6>OR</h6>
 
         <div className="whatsapp-logo">

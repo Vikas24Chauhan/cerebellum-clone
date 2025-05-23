@@ -12,6 +12,7 @@ import {
 import FooterIcon from "../../assets/images/footer-icon.webp";
 import AppStore from "../../assets/images/appstore.png";
 import GPlay from "../../assets/images/gplay.png";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
@@ -23,11 +24,33 @@ function Footer() {
           <hr />
           <h4>Our Social Media presence</h4>
           <div className="footer-social-media">
-            <FaYoutube />
-            <FaInstagram />
-            <FaTelegram />
-            <FaFacebook />
-            <FaLinkedin />
+            <NavLink
+              to="https://www.youtube.com/@cerebellumacademy"
+              target="_blank"
+            >
+              <FaYoutube />
+            </NavLink>
+            <NavLink
+              to="https://www.instagram.com/cerebellumacademy/"
+              target="_blank"
+            >
+              <FaInstagram />
+            </NavLink>
+            <NavLink to="https://t.me/GroupCerebellumAcademy" target="_blank">
+              <FaTelegram />
+            </NavLink>
+            <NavLink
+              to="https://www.facebook.com/cerebellumacademy/"
+              target="_blank"
+            >
+              <FaFacebook />
+            </NavLink>
+            <NavLink
+              to="https://www.linkedin.com/company/cerebellum-academy/"
+              target="_blank"
+            >
+              <FaLinkedin />
+            </NavLink>
           </div>
           <div className="footer-store">
             <img src={GPlay} alt="" />
@@ -60,7 +83,7 @@ function Footer() {
         <div className="footer-email-card">
           <h5>Your Emails</h5>
           <input type="email" placeholder="Email Address" />
-          <button>Subscribe to Newsletter</button>
+          <button type="submit">Subscribe to Newsletter</button>
         </div>
       </div>
 

@@ -29,7 +29,7 @@ function Home() {
           achieve <span>BETTER Ranks</span>
         </h1>
 
-        <NavLink>Take the first step</NavLink>
+        <NavLink to="/login">Take the first step</NavLink>
 
         <h2>Conceptual. Comprehensive. Structured. Complete</h2>
       </div>
