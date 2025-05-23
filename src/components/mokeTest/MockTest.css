@@ -62,7 +62,7 @@
 
 @media (max-width: 768px) {
   .mock-test-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .mock-test-image {

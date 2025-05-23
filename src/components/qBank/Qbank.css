@@ -62,7 +62,7 @@
 
 @media (max-width: 768px) {
   .Qbank-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .Qbank-image {
